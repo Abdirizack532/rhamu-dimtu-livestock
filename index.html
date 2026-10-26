@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rhamu Dimtu Livestock</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #faf6eb;
+    color: #183828;
+}
+
+nav {
+    background: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 75vh;
+    background: linear-gradient(135deg, #103c29, #28704a);
+    color: white;
+    padding: 90px 7%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero-small {
+    color: #e7bf65;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(48px, 8vw, 82px);
+    margin: 15px 0;
+    color: #f0ca70;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 650px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 14px;
+    background: #22a559;
+    color: white;
+    padding: 15px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 65px 7%;
+    text-align: center;
+}
+
+.section h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1050px;
+    margin: 35px auto;
+}
+
+.card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+}
+
+.number {
+    font-size: 42px;
+    font-weight: bold;
+    color: #185b38;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+
+.services {
+    background: #ece2c9;
+}
+
+.about {
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.contact {
+    background: #123e2a;
+    color: white;
+    text-align: center;
+    padding: 65px 7%;
+}
+
+.contact h2 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+}
+
+.phone {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background: #09271a;
+    color: #d9e4dd;
+    padding: 20px;
+}
+
+@media (max-width: 650px) {
+    nav .location {
+        display: none;
+    }
+
+    .hero {
+        min-height: 65vh;
+        padding: 65px 7%;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="brand">🐐 Rhamu Dimtu Livestock</div>
+    <div class="location">Mandera, Kenya</div>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+
+        <div class="hero-small">
+            CAMELS • CATTLE • GOATS • MILK • BULL HIRE
+        </div>
+
+        <h1>
+            Healthy Livestock.<br>
+            Stronger Communities.
+        </h1>
+
+        <p>
+            Quality camels, cattle and goats from Rhamu Dimtu.
+            We also provide milk and bull hire services.
+        </p>
+
+        <a class="button"
+           href="https://wa.me/254721154683?text=Hello%20Rhamu%20Dimtu%20Livestock%2C%20I%20would%20like%20to%20make%20an%20enquiry.">
+           💬 Enquire on WhatsApp
+        </a>
+
+    </div>
+</section>
+
+<section class="section">
+
+    <h2>Our Livestock</h2>
+
+    <p>Healthy livestock available for enquiries.</p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="number">5</div>
+            <h3>🐪 Camels</h3>
+            <p>2 Male • 3 Female</p>
+            <p>Milk available</p>
+        </div>
+
+        <div class="card">
+            <div class="number">25</div>
+            <h3>🐄 Cattle</h3>
+            <p>10 Male • 15 Female</p>
+            <p>Milk available</p>
+        </div>
+
+        <div class="card">
+            <div class="number">125</div>
+            <h3>🐐 Goats</h3>
+            <p>75 Male • 50 Female</p>
+            <p>Milk available</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section services">
+
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🥛 Fresh Milk</h3>
+            <p>
+                Contact us for milk availability and orders.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🐂 Bull Hire</h3>
+            <p>
+                10 bulls available for hire.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🐪 Livestock Sales</h3>
+            <p>
+                Camels, cattle and goats available for customer enquiries.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <h2>About Rhamu Dimtu Livestock</h2>
+
+    <div class="about">
+
+        <p>
+            Rhamu Dimtu Livestock is based in the Mandera area of Kenya.
+            Our focus is on healthy livestock, dependable service and
+            building long-term relationships with our customers.
+        </p>
+
+        <p>
+            Whether you are looking for camels, cattle, goats,
+            milk or bull hire services, contact us directly to discuss
+            availability.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="contact">
+
+    <h2>Let's Talk Livestock</h2>
+
+    <p>
+        Contact Rhamu Dimtu Livestock today.
+    </p>
+
+    <p class="phone">
+        📞 +254 721 154 683
+    </p>
+
+    <a class="button"
+       href="https://wa.me/254721154683?text=Hello%20Rhamu%20Dimtu%20Livestock%2C%20I%20would%20like%20to%20make%20an%20enquiry.">
+       💬 Chat on WhatsApp
+    </a>
+
+</section>
+
+<footer>
+    © 2026 Rhamu Dimtu Livestock • Mandera, Kenya
+</footer>
+
+</body>
+</html>
